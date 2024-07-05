@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/icons8-calculator-55.png" type="image/x-icon">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>CALCULATOR</title>
+</head>
+
+<body>
+
+    <section>
+        <div class="container">
+            <div class="calculator">
+                <h1
+                    style="color: #f3f3f3; font-size: 1rem; font-weight: bold; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-left: 80px;">
+                    CALCULATOR</h1>
+                <input type="text" name="" id="number_calc" placeholder="0">
+                <button onclick="Clear()">C</button>
+                <button onclick="del()">DEL</button>
+                <button onclick="display('%')">%</button>
+                <button onclick="display('/')">/</button>
+                <button onclick="display('7')">7</button>
+                <button onclick="display('8')">8</button>
+                <button onclick="display('9')">9</button>
+                <button onclick="display('*')">*</button>
+                <button onclick="display('4')">4</button>
+                <button onclick="display('5')">5</button>
+                <button onclick="display('6')">6</button>
+                <button onclick="display('-')">-</button>
+                <button onclick="display('1')">1</button>
+                <button onclick="display('2')">2</button>
+                <button onclick="display('3')">3</button>
+                <button onclick="display('+')">+</button>
+                <button onclick="display('.')">.</button>
+                <button onclick="display('0')">0</button>
+                <button onclick="Calculate()" class="equale">=</button>
+            </div>
+        </div>
+    </section>
+    <script src="/js/calc.js"></script>
+</body>
+
+</html>
